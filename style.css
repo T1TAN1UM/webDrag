@@ -1,0 +1,91 @@
+body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2900px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/binding-light.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.rect {
+    background: url('noise.png');
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 60%;
+    height: 2000px;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.rect h1 {
+    text-align: center;
+    font-weight: 100;
+}
+
+.rect h2 {
+    font-weight: 300;
+    color: #FFB20A;
+}
+
+.rect h1 .thick {
+    font-weight: 400;
+}
+
+.rect .face {
+    max-width: 120px;
+    border: solid 2px #fff;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.rect .bio {
+    width: 25%;
+    margin-left: 37.5%;
+}
+
+.education,
+.work,
+.contact,
+.languages,
+.skills {
+    text-align: left;
+    width: 20%;
+    margin-left: 5%;
+    position: absolute;
+}
+
+.education {
+    top: 400px;
+    left: 70px;
+}
+
+.work {
+    top: 400px;
+    right: 70px;
+}
+
+.contact {
+    top: 650px;
+    right: 70px;
+}
+
+.skills {
+    top: 1250px;
+    right: 70px;
+}
+
+.languages {
+    top: 900px;
+    left: 70px;
+}
+.border-top {
+	padding-top: 20px;
+}
+
